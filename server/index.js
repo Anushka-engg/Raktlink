@@ -32,7 +32,7 @@ app.use(cors());
 app.use(express.json());
 
 // Database connection
-mongoose.connect(process.env.MONGO_URI, {
+mongoose.connect("mongodb+srv://iadityaverma201099:uL0Nq9pY6I28ETXs@raktlink.vkg9uey.mongodb.net/?retryWrites=true&w=majority&appName=RaktLink", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
