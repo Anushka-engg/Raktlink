@@ -12,6 +12,11 @@ const requestRoutes = require('./routes/bloodRequests');
 // Load environment variables
 dotenv.config();
 
+
+console.log('MongoDB URI:', process.env.MONGO_URI);
+console.log('JWT Secret:', process.env.JWT_SECRET);
+console.log('Node ENV:', process.env.NODE_ENV);
+
 // Initialize Express app
 const app = express();
 const server = http.createServer(app);
