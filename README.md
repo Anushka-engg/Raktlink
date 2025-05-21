@@ -7,8 +7,7 @@
 
 ## 🔗 Live Demo
 
-**Deployed at:** [https://raktlink-server.onrender.com](https://raktlink-server.onrender.com) *(update with your actual deployment URL if different)*
-
+**Deployed at:** [https://raktlink-server.onrender.com](https://raktlink-server.onrender.com)
 ---
 
 ## 🚀 Features
